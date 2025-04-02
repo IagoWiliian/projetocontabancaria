@@ -31,7 +31,7 @@ public class ContaCorrente extends Conta {
 	}
 	
 	public void visualizar() {
-		super.vizualizar();
+		super.visualizar();
 		System.out.println("Limite de crédito: " + this.limite);
 		
 	}

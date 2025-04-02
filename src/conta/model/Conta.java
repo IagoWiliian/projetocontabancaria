@@ -73,7 +73,7 @@ public abstract class Conta {
 
 	}
 
-	public void vizualizar() {
+	public void visualizar() {
 
 		String tipo = "";
 

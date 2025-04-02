@@ -14,7 +14,7 @@ public class ContaController implements ContaRepository{
 		var conta = buscarNacollection(numero);
 		
 		if (conta != null) 
-			conta.vizualizar();
+			conta.visualizar();
 		else 
 			System.out.println("\nA Conta número: " + numero + " não foi encontrada!");
 		
@@ -23,7 +23,7 @@ public class ContaController implements ContaRepository{
 	@Override
 	public void listarTodas() {
 		for (var conta : listaContas) {
-			conta.vizualizar();
+			conta.visualizar();
 		}
 			
 	}
